@@ -9,9 +9,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import ProductPrice from "./product-price";
+import { Product } from "@/types";
 
 type ProductCardProps = {
-  product: any;
+  product: Product;
 };
 
 const ProductCard = ({ product }: ProductCardProps) => {
